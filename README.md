@@ -12,6 +12,13 @@ The DP is the two-predecessor minimum: `dp[r][c] = grid[r][c] + min(above, left)
 
 **Complexity:** O(R·C) time; O(R·C) space (kept for the backtrack; cost-only would roll rows).
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
